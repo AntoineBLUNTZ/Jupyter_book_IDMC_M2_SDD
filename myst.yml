@@ -20,6 +20,7 @@ project:
     - file: RGPD.md
     - file: 02-notebook.ipynb
     - file: Régression_linéaire_simple_(RLS).ipynb
+    - file: Régression_linéaire_simple_(RLS)_2.ipynb
   exports:
     - format: pdf
       template: lapreprint-typst

@@ -22,6 +22,7 @@ project:
     - file: RGPD.md
     - file: 02-notebook.ipynb
     - file: Régression_linéaire_simple_(RLS).ipynb
+    - file: Mathématiques_Probabilités_01_Ensembles.ipynb
     - file: 00_Informatique_décisionnelle_BI.ipynb
       children:
         - file: 01_00_Informatique_décisionnelle_BI.ipynb
@@ -33,6 +34,10 @@ project:
             - file: 01_05_Informatique_décisionnelle_BI.ipynb
             - file: 01_06_Informatique_décisionnelle_BI.ipynb
             - file: 01_07_Informatique_décisionnelle_BI.ipynb
+    - file: 08_00_ALGO-APPR.ipynb
+      children:
+        - file: 08_99_ALGO-APPR_DM_fr.ipynb
+        - file: 08_99_ALGO-APPR_DM_en.ipynb
   exports:
     - format: pdf
       template: lapreprint-typst

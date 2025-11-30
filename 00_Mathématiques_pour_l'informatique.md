@@ -1,5 +1,5 @@
 ---
-title: Mathématiques pour l'informatique
+title: Mathématiques pour l'informatique 🔢
 date: 2024-06-12
 authors:
   - name: Efoevi KOUDOU

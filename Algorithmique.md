@@ -1,5 +1,5 @@
 ---
-title: Algorithmique
+title: Algorithmique ⚙️
 date: 2024-06-12
 authors:
   - name: Antoine TABBONE

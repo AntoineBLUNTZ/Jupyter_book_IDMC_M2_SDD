@@ -1,0 +1,5 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/antoi/IDMC_M2_SDD/Jupyter_book_IDMC_M2_SDD/media/videos/Jupyter_book_IDMC_M2_SDD/480p15/partial_movie_files/CircleToSquare/1185818338_1129971387_223132457.mp4'
+file 'file:C:/Users/antoi/IDMC_M2_SDD/Jupyter_book_IDMC_M2_SDD/media/videos/Jupyter_book_IDMC_M2_SDD/480p15/partial_movie_files/CircleToSquare/624642324_1704852926_123229029.mp4'
+file 'file:C:/Users/antoi/IDMC_M2_SDD/Jupyter_book_IDMC_M2_SDD/media/videos/Jupyter_book_IDMC_M2_SDD/480p15/partial_movie_files/CircleToSquare/624642324_2955194210_3314600553.mp4'
+file 'file:C:/Users/antoi/IDMC_M2_SDD/Jupyter_book_IDMC_M2_SDD/media/videos/Jupyter_book_IDMC_M2_SDD/480p15/partial_movie_files/CircleToSquare/624642324_1704852926_2216167476.mp4'

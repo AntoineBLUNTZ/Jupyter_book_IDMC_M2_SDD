@@ -1,0 +1,5 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/antoi/IDMC_M2_SDD/Jupyter_book_IDMC_M2_SDD/media/videos/Jupyter_book_IDMC_M2_SDD/720p30/partial_movie_files/AnimateSyntax/2016333726_4127336387_223132457.mp4'
+file 'file:C:/Users/antoi/IDMC_M2_SDD/Jupyter_book_IDMC_M2_SDD/media/videos/Jupyter_book_IDMC_M2_SDD/720p30/partial_movie_files/AnimateSyntax/543634251_3230749690_639035850.mp4'
+file 'file:C:/Users/antoi/IDMC_M2_SDD/Jupyter_book_IDMC_M2_SDD/media/videos/Jupyter_book_IDMC_M2_SDD/720p30/partial_movie_files/AnimateSyntax/543634251_3429236519_639035850.mp4'
+file 'file:C:/Users/antoi/IDMC_M2_SDD/Jupyter_book_IDMC_M2_SDD/media/videos/Jupyter_book_IDMC_M2_SDD/720p30/partial_movie_files/AnimateSyntax/543634251_1049337299_639035850.mp4'

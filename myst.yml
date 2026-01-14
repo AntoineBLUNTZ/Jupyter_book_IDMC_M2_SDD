@@ -40,7 +40,9 @@ project:
         - file: 08_99_ALGO-APPR_DM_en.ipynb
     - file: 14_00_Principes_de_BD_relationnelles.ipynb
     - file: 15_00_Données_massives.ipynb
-    - file: First Steps with Manim.ipynb
+    - file: First_Steps_with_Manim.ipynb
+    - file: 1702_vocabulaire_IA_fr.ipynb
+    - file: 1702_AI_vocabulary_en.ipynb
   exports:
     - format: pdf
       template: lapreprint-typst

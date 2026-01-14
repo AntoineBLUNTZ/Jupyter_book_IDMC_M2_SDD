@@ -1,5 +1,5 @@
 ---
-title: Programmation </>
+title: Programmation
 date: 2024-06-12
 authors:
   - name: Efoevi KOUDOU

@@ -1,0 +1,12 @@
+buttons:
+  - type : dropdown
+    label: Language
+
+  - type : button
+    label: button
+
+    items:
+      - label: Français
+        url: https://antoinebluntz.github.io/Jupyter_book_IDMC_M2_SDD/1702-vocabulaire-ia-fr/
+      - label: English
+        url: https://antoinebluntz.github.io/Jupyter_book_IDMC_M2_SDD/1702-ai-vocabulary-en/

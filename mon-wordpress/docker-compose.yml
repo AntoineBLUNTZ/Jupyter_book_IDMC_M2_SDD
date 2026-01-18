@@ -1,0 +1,31 @@
+services: #services: — définit les conteneurs à créer
+    db:
+        image: mariadb:10.6.4-focal
+        expose:
+            - 3306
+            - 33060
+        volumes:
+            - db_data:/var/lib/mysql # les données MySQL sont persistées
+        environment:
+            - MYSQL_ROOT_PASSWORD=somewordpress
+            - MYSQL_DATABASE=wordpress
+            - MYSQL_USER=wordpress
+            - MYSQL_PASSWORD=wordpress
+        restart: always
+        command: '--default-authentication-plugin=mysql_native_password'
+    wordpress:
+        image: wordpress:latest
+        ports:
+            - "8080:80" #  expose le port 80 du conteneur sur le port 80 la machine locale
+        volumes:
+            - wp_data:/var/www/html
+        environment: # variables d’environnement passées au conteneur
+            - WORDPRESS_DB_HOST=db # WordPress contacte MariDB via son nom de service
+            - WORDPRESS_DB_USER=wordpress
+            - WORDPRESS_DB_PASSWORD=wordpress
+            - WORDPRESS_DB_NAME=wordpress
+        restart: always # redémarre automatiquement
+
+volumes:
+    db_data:
+    wp_data:

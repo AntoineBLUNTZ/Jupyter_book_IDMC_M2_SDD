@@ -43,6 +43,13 @@ project:
     - file: First_Steps_with_Manim.ipynb
     - file: 1702_vocabulaire_IA_fr.ipynb
     - file: 1702_AI_vocabulary_en.ipynb
+    - file: IDMC_M2_SDD_15_DOMASS.ipynb
+      children:
+      - file: IDMC_M2_SDD_15_DOMASS_01_Docker.ipynb
+        children:
+        - file: IDMC_M2_SDD_15_DOMASS_01_Docker_TP01_WordPress_with_Docker_Compose.ipynb
+      - file: IDMC_M2_SDD_15_DOMASS_02_MongoDB.ipynb
+      - file: IDMC_M2_SDD_15_DOMASS_PROJET_Données_massives.ipynb
   exports:
     - format: pdf
       template: lapreprint-typst
@@ -51,6 +58,9 @@ project:
     guide: https://mystmd.org/guide
 site:
   template: book-theme
+sphinx:
+  extra_extensions:
+    - sphinx-launch-buttons
   # options:
   #   favicon: favicon.ico
   #   logo: site_logo.png
